@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Open Graph / Facebook -->
-<meta property="og:title"        content="Balaji365 App – Download Now" />
-<meta property="og:description"  content="Get the latest Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!" />
-<meta property="og:image"        content="https://app.balaji365.xyz/assets/preview-1200x630.png" />
-<meta property="og:image:width"  content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url"          content="https://app.balaji365.xyz/" />
-<meta property="og:type"         content="website" />
-<meta property="og:site_name"    content="Balaji365" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title"        content="Balaji365 App – Download Now" />
+  <meta property="og:description"  content="Get the latest Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!" />
+  <meta property="og:image"        content="https://app.balaji365.xyz/assets/preview-1200x630.png" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url"          content="https://app.balaji365.xyz/" />
+  <meta property="og:type"         content="website" />
+  <meta property="og:site_name"    content="Balaji365" />
 
-<!-- Twitter Cards -->
-<meta name="twitter:card"        content="summary_large_image" />
-<meta name="twitter:title"       content="Balaji365 App – Download Now" />
-<meta name="twitter:description" content="Get the latest Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!" />
-<meta name="twitter:image"       content="https://app.balaji365.xyz/assets/preview-1200x630.png" />
+  <!-- Twitter Cards -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Balaji365 App – Download Now" />
+  <meta name="twitter:description" content="Get the latest Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!" />
+  <meta name="twitter:image"       content="https://app.balaji365.xyz/assets/preview-1200x630.png" />
 
-    <meta name="description" content="Download the Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!">
+  <meta name="description" content="Download the Balaji365 Android app—4.9⭐ with 2K+ ratings and 100K+ downloads!">
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1204022367543925');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1204022367543925&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1975141603314334');  // ✅ Updated Pixel ID
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1975141603314334&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 
   <meta charset="UTF-8" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -72,7 +72,11 @@ src="https://www.facebook.com/tr?id=1204022367543925&ev=PageView&noscript=1"
       <p class="text-gray-400 mb-2">2K+ Ratings | 100K+ Downloads</p>
       <p class="mb-4 text-gray-300">Get the latest version of the Balaji365 mobile app for Android.</p>
 
-      <a href="Balaji365.apk" download class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-400 to-green-600 text-white text-lg font-bold rounded-full shadow-lg hover:from-green-300 hover:to-green-500 transition duration-300">
+      <!-- ✅ Download button with tracking -->
+      <a id="downloadApkBtn"
+         href="Balaji365.apk"
+         download
+         class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-green-400 to-green-600 text-white text-lg font-bold rounded-full shadow-lg hover:from-green-300 hover:to-green-500 transition duration-300">
         <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
         </svg>
@@ -107,5 +111,32 @@ src="https://www.facebook.com/tr?id=1204022367543925&ev=PageView&noscript=1"
     </svg>
   </a>
 
+  <!-- ✅ Download tracking script -->
+  <script>
+    // Simple unique ID for event diagnostics/dedup (useful if you add CAPI later)
+    function makeEventId() {
+      return 'dl-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10);
+    }
+
+    (function setupDownloadTracking(){
+      var btn = document.getElementById('downloadApkBtn');
+      if (!btn) return;
+
+      btn.addEventListener('click', function(){
+        try {
+          var eventID = makeEventId();
+          // Custom event to track APK downloads
+          fbq('trackCustom', 'DownloadApk', {
+            app: 'Balaji365',
+            platform: 'Android',
+            version: '1.0',
+            button_location: 'hero'
+          }, { eventID: eventID });
+          // Optional: log for quick debugging
+          // console.log('Meta Pixel DownloadApk fired', eventID);
+        } catch(e) {/* no-op */}
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
